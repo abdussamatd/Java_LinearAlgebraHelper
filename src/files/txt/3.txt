@@ -1,0 +1,34 @@
+	Matrix multiplication is a binary operation whose output is also a matrix when two matrices are multiplied. 
+In linear algebra, the multiplication of matrices is possible only when the matrices are compatible. In general, matrix 
+multiplication, unlike arithmetic multiplication, is not commutative, which means the multiplication of matrix A and B, 
+given as AB, cannot be equal to BA, i.e., AB ≠ BA. Therefore, the order of multiplication for the multiplication of 
+matrices is important.
+
+	Two matrices A and B are said to be compatible if the number of columns in A is equal to the number of rows in B. 
+That means if A is a matrix of order m×n and B is a matrix of order n×p, then we can say that matrices A and B are compatible.
+
+	Step 1: Make sure that the number of columns in the 1st matrix equals the number of rows in the 2nd matrix 
+(compatibility of matrices).
+	Step 2: Multiply the elements of ith row of the first matrix by the elements of jth column in the second matrix 
+and add the products. This would the element that is in the ith row and jth column of the resultant matrix.
+	Step 3: Place the added products in the respective positions.
+
+	There are certain properties of matrix multiplication operation in linear algebra in mathematics. These properties 
+are as given below:
+
+Non-Commutative: Matrix multiplication is non-commutative, i.e., for multiplication of two matrices A and B, AB ≠ BA.
+
+Distributivity: The distributive property can be applied while multiplying matrices, i.e., A(B + C) = AB + BC, 
+	given that A, B, and C are compatible.
+
+Product with Scalar: If the product of matrices A and B, AB is defined then, c(AB) = (cA)B = A(Bc), such that c is a scalar.
+
+Transpose: The transpose of the product of matrices A and B can be given as, (AB)T = BTAT, where T denotes the transpose.
+
+Complex Conjugate: If A and B are complex entries, then (AB)* = B*A*
+
+Associativity: Matrix multiplication is associative. Given three matrices A, B and C, such that the products (AB)C and 
+	A(BC) are defined, then (AB)C = A(BC).
+
+Determinant: The determinant of product of matrices is nothing but the product of the determinants of individual matrices. 
+	i.e., det (AB) = det A × det B.

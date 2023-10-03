@@ -1,0 +1,13 @@
+	The matrix scalar multiplication is the process of multiplying a matrix by a scalar. Let 'A' be a matrix 
+and 'k' be a scalar (real number). Then kA is the result of the matrix scalar multiplication. To find kA, we just 
+multiply every element of A by 'k'. 
+
+If A and B are matrices of the same order; and k, a, and b are scalars then: A and kA have the same order.
+For example, if A is a matrix of order 2 x 3 then any of its scalar multiple, say 2A, is also of order 2 x 3.
+Matrix scalar multiplication is commutative. i.e., k A = A k.	
+Scalar multiplication of matrices is associative. i.e., (ab) A = a (bA).
+The distributive property works for the matrix scalar multiplication as follows:
+	k (A + B) = kA + k B
+	A (a + b) = Aa + Ab (or) aA + bA
+The product of any scalar and a zero matrix is the zero matrix itself.
+The product of -1 and A gives -A which is the additive inverse of A.

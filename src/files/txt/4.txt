@@ -1,0 +1,17 @@
+	The inverse of Matrix for a matrix A is denoted by A-1. The inverse of a 2 × 2 matrix can be calculated using 
+a simple formula. Further, to find the inverse of a matrix of order 3 or higher, we need to know about the determinant 
+and adjoint of the matrix. The inverse of a matrix is another matrix, which by multiplying with the given matrix gives 
+the identity matrix.
+	The inverse of matrix is a matrix, which on multiplication with the given matrix gives the multiplicative 
+identity. For a square matrix A, its inverse is A-1, and A · A-1 = A-1· A = I, where I is the identity matrix. The 
+matrix whose determinant is non-zero and for which the inverse matrix can be calculated is called an invertible matrix. 
+
+	To find the inverse of a square matrix A, we use the following formula: A-1 = adj(A) / |A|; |A| ≠ 0 where:
+A is a square matrix.
+adj(A) is the adjoint matrix of A.
+|A| is the determinant of A.
+
+Note: 
+For a matrix to have its inverse exists:
+	The given matrix should be a square matrix.
+	The determinant of the matrix should not be equal to zero.

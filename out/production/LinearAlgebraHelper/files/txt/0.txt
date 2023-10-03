@@ -1,0 +1,28 @@
+	Addition of matrix is the basic operation performed, to add two or more matrices. Matrix addition is possible only if 
+the order of the given matrices are the same. By order we mean, the number of rows and columns are the same for the matrices. 
+Hence, we can add the corresponding elements of the matrices. But if the order is different then matrix addition is not 
+possible. Suppose A = [aij]mxn and B = [bij]mxn are two matrices of order m x n, then the addition of A and B is given by;
+
+	A + B = [aij]mxn + [bij]mxn = [aij + bij]mxn
+
+	By recalling the small concept of addition of algebraic expressions, we know that while the addition of algebraic 
+expressions can only be done with the corresponding like terms, similarly the addition of two matrices can be done by addition 
+of corresponding terms in the matrix.
+
+	There are basically two criteria that define the addition of a matrix. They are as follows:
+
+	Consider two matrices A & B. These matrices can be added if (if and only if) the order of the matrices are equal, i.e. 
+the two matrices have the same number of rows and columns. For example, say matrix A is of the order 3 × 4, then the matrix B 
+can be added to matrix A if the order of B is also 3 × 4. The addition of matrices is not defined for matrices of different sizes. 
+	Properties of Matrix Addition.
+	The basic properties of matrix addition are similar to the addition of real numbers. Go through the properties given below:
+
+	Assume that, A, B and C be three m x n matrices, The following properties hold true for the matrix addition operation. 
+	Commutative Property: If A and B are two matrices of the same order, say m x n, then the addition of the two matrices is 
+commutative, i.e., A + B = B + A
+	Associative Property: If A, B and C are three matrices of the same order, say m x n, then the addition of the three 
+matrices is associative, i.e., A + (B + C) = (A + B) + C
+	Additive identity: For any m x n matrix, there is an identity element. Thus, if A is m x n order matrix, then the 
+additive identity of A will be zero matrix of same order, such that, A + O =  A ( where O is an additive identity)
+	Additive inverse: If A is any matrix of order m x n, then the additive inverse of A will be B (= -A) of same order, 
+such that, A + B = O. Hence, the sum of matrix and its additive inverse results in a zero matrix

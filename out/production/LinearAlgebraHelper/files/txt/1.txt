@@ -1,0 +1,15 @@
+	The subtraction of matrices or matrix subtraction can only be possible if the number of rows and columns of both the 
+matrices are the same. While subtracting two matrices, we subtract the elements in each row and column from the corresponding 
+elements in the row and column of the other matrix. Consider two matrices A and B of the same order 'm × n', where m is the 
+number of rows and n is the number of columns of the two matrices, denoted as A = [aij] and B = [bij]. Now, the difference of 
+the two matrices A and B is given as: A - B = [aij] - [bij] = [aij - bij], where ij denotes the position of each element in 
+ith row and jth column. The dimension of the difference matrix, that is, A - B is also 'm × n'. All constraints for the 
+addition of matrices are applied to the subtraction of matrices as well. But there are certain laws that matrix subtraction 
+does not follow just like the subtraction of numbers. The most important necessity for the subtraction of matrices to hold 
+all these properties is that the matrix subtraction is defined only if the order of the matrices is the same.
+
+	The number of rows and columns should be the same for the matrix subtraction.
+	The subtraction of matrices is not commutative, that is, A - B ≠ B - A
+	The subtraction of matrices is not associative, that is, (A - B) - C ≠ A - (B - C)
+	The subtraction of a matrix from itself results in a null matrix, that is, A - A = O.
+	Subtraction of matrices is the addition of the negative of a matrix to another matrix, that is, A - B = A + (-B).

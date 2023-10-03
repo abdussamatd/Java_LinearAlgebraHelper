@@ -1,0 +1,25 @@
+	The determinant of matrix is the sum of products of the elements of any row or column and their corresponding 
+co-factors. The determinant of matrix is defined only for square matrices. For any square matrix A, the determinant of 
+A is denoted by det A (or) |A|. It is sometimes denoted by the symbol Δ. The process of calculating the determinants 
+of 1x1 matrices and 2x2 matrices is pretty simple whereas the process becomes more complex as the order of the matrix 
+increases. The process of finding the determinant of matrix involves minors and co-factors.
+
+Here are the steps to find the determinant of matrix (a 3×3 matrix or any other matrix).
+
+Step 1: Choose any row or column. We usually choose the first row to find the determinant.
+Step 2: Find the co-factors of each of the elements of the row/column that we have chosen in Step 1.
+Step 3: Multiply the elements of the row/column from Step 1 with the corresponding co-factors obtained from Step 2
+Step 4: Add all the products from Step 3 which would give the determinant of the matrix.
+
+Important Notes on Determinant of Matrix:
+
+The determinant of an identity matrix is always 1.
+The determinant of a diagonal matrix is always the product of elements of its principal diagonal.
+The determinant of an orthogonal matrix is either +1 or -1.
+The determinant of a matrix can be either positive, negative, or zero.
+The determinant of matrix is used in Cramer's rule which is used to solve the system of equations.
+Also, it is used to find the inverse of a matrix. If the determinant of a matrix is not equal to 0, then it is an 
+	invertible matrix as we can find its inverse.
+If A is a square matrix of order 3×3, then |kA| = k3 |A|, for any scalar k.
+A square matrix A is called singular if |A| = 0 and non-singular if |A| ≠ 0.
+The determinant is helpful in computing the eigenvalues and eigenvectors of a matrix.
